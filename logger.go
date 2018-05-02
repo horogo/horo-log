@@ -1,20 +1,20 @@
 package hrlog
 
 import (
-	"io"
-	"sync"
-	"os"
-	"sync/atomic"
 	"fmt"
-	"time"
+	"io"
+	"os"
 	"runtime"
+	"sync"
+	"sync/atomic"
+	"time"
 )
 
 // A Logger represents an active logging object. Multiple loggers can be used
 // simultaneously even if they are using the same same writers
 type Logger struct {
 	out    io.Writer
-	level  level
+	level  Level
 	flag   uint32
 	prefix string
 	buf    []byte
@@ -137,11 +137,11 @@ func (l *Logger) SetOutput(w io.Writer) {
 	l.out = w
 }
 
-func (l *Logger) getLevel() level {
-	return level(atomic.LoadUint32((*uint32)(&l.level)))
+func (l *Logger) getLevel() Level {
+	return Level(atomic.LoadUint32((*uint32)(&l.level)))
 }
 
-func (l *Logger) SetLevel(level level) {
+func (l *Logger) SetLevel(level Level) {
 	atomic.StoreUint32((*uint32)(&l.level), uint32(level))
 }
 
@@ -270,7 +270,7 @@ func SetOutput(w io.Writer) {
 	std.SetOutput(w)
 }
 
-func SetLevel(level level) {
+func SetLevel(level Level) {
 	std.SetLevel(level)
 }
 

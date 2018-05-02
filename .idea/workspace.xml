@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58505fac-6981-4cf3-b1e4-0cb3eaaa950b" name="Default" comment="" />
+    <list default="true" id="58505fac-6981-4cf3-b1e4-0cb3eaaa950b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/level.go" beforeDir="false" afterPath="$PROJECT_DIR$/level.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.go" beforeDir="false" afterPath="$PROJECT_DIR$/logger.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +20,8 @@
       <file leaf-file-name="logger.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logger.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="272" column="28" lean-forward="true" selection-start-line="272" selection-start-column="28" selection-end-line="272" selection-end-column="28" />
+            <state relative-caret-position="552">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#15#38#0" expanded="true" />
               </folding>
@@ -23,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logger_test.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logger_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logger_test.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -44,8 +50,17 @@
       <file leaf-file-name="level.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/level.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="506">
+              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -75,6 +90,9 @@
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/lib/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoDepProject">
     <integration-enabled>true</integration-enabled>
     <exec-path>/usr/bin/dep</exec-path>
@@ -85,10 +103,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/level.go" />
         <option value="$PROJECT_DIR$/flag.go" />
         <option value="$PROJECT_DIR$/logger.go" />
         <option value="$PROJECT_DIR$/logger_test.go" />
+        <option value="$PROJECT_DIR$/level.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -105,6 +124,7 @@
     <option name="width" value="940" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -178,21 +198,32 @@
     <history-entry file="TestAll_in_github_com_horogo_horo-log - 2018.05.02 at 22h 13m 08s.xml">
       <configuration name="TestAll in github.com/horogo/horo-log" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestAll_in_github_com_horogo_horo-log - 2018.05.02 at 22h 13m 41s.xml">
+      <configuration name="TestAll in github.com/horogo/horo-log" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_horogo_horo-log - 2018.05.02 at 22h 13m 54s.xml">
+      <configuration name="TestAll in github.com/horogo/horo-log" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_horogo_horo-log - 2018.05.02 at 22h 14m 01s.xml">
+      <configuration name="TestAll in github.com/horogo/horo-log" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAll_in_github_com_horogo_horo-log - 2018.05.02 at 22h 14m 11s.xml">
+      <configuration name="TestAll in github.com/horogo/horo-log" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2027897" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2027897" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32915717" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32915717" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32915717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32915717" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,13 +241,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/level.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flag.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -231,20 +255,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logger_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logger.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="272" column="28" lean-forward="true" selection-start-line="272" selection-start-column="28" selection-end-line="272" selection-end-column="28" />
+        <state relative-caret-position="552">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#15#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logger_test.go">
+    <entry file="file://$PROJECT_DIR$/level.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="506">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
